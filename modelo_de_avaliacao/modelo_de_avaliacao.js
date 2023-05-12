@@ -31,7 +31,7 @@
         }
     return restante // Retorno do objeto "restante" pela função "resultado";
     }
-    console.log(resultado(estoque, vendas)) /* Impressão do retorno da função 
+    console.log(resultado(estoque, vendas)) /* Impressão da chamada da função 
     "resultado". */
 
     /* Equipe: José Nilton Vieira e Emanuel Alves Teixeira;
