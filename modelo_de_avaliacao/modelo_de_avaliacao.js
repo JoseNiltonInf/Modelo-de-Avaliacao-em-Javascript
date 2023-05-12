@@ -18,13 +18,13 @@
     }
 
     const restante ={} /* Objeto que guarda as informações 
-    do todal de unidades restantes para cada produto ao final da semana 
+    do total de unidades restantes para cada produto ao final da semana 
     de vendas; */
     function resultado (estoque, vendas){ /* Função que retorna
     a diferença entre a quantidade de produtos em estoque
     e vendidos; */
 
-        for (let i in estoque) { /* Automatização dos propriedades
+        for (let i in estoque) { /* Automatização das propriedades
         do objeto "restante"; */
             restante[i] =  estoque[i] - vendas[i] /* Cálculo de cada
             uma das propriedades do objeto "restante"; */
