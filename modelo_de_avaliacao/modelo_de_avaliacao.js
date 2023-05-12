@@ -22,7 +22,7 @@
     de vendas; */
     function resultado (estoque, vendas){ /* Função que retorna
     a diferença entre a quantidade de produtos em estoque
-    e vendidos; */
+    e os vendidos; */
 
         for (let i in estoque) { /* Automatização das propriedades
         do objeto "restante"; */
