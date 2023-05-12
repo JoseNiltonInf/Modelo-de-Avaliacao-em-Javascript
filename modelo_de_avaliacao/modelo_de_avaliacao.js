@@ -29,7 +29,7 @@
             restante[i] =  estoque[i] - vendas[i] /* Cálculo de cada
             uma das propriedades do objeto "restante"; */
         }
-    return restante // Retorno do objeto "restante" pela função;
+    return restante // Retorno do objeto "restante" pela função "resultado";
     }
     console.log(resultado(estoque, vendas)) /* Impressão do retorno da função 
     "resultado". */
